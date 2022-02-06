@@ -1,0 +1,11 @@
+To fill your database, please use the words.txt file provided in this package.
+
+Steps:
+1. Download the file and place it somewhere easy to access
+2. Create a DB in MySQL or PostgreSQL (Here postgres was used, you might want to change that in pom.xml and JDBCHelperClasses)
+3. Create a table with a single column
+4. Set the parameters of the DB in the DBFiller class and the JDBCHelpers/Runners.java class
+5. Once done, run the code
+6. Slowly all the entries should be entered inside the database
+
+NOTE: There a many normal words missing in the txt file, you might want to add them as required
